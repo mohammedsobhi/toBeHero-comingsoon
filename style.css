@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(4703133.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.container {
+  height: 95vh;
+  width: 95vw;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  box-shadow: 0 8px 32px 0 rgba(18, 18, 24, 0.5);
+  border-radius: 20px;
+  border: 0.2px solid rgba(255, 255, 255, 0.26);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-title {
+  margin-top: 30px;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.project-title span {
+  padding: 0 15px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.coming-soon {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.details {
+  width: 40%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.supervisors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.supervisor-card {
+  background: rgba(201, 38, 38, 0.062);
+  box-shadow: 0 8px 25px 0 rgba(57, 60, 99, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 0.2px solid rgba(255, 255, 255, 0.452);
+  margin: 10px;
+  min-width: 300px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supervisor-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 15px;
+}
