@@ -1,3 +1,5 @@
+https://unknown-squad.github.io/toBeHero-comingsoon/
+
 # to Be Hero
 a coming soon teaser page for our graduation project
 
