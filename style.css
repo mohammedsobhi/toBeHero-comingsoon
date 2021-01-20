@@ -5,7 +5,12 @@
 body {
   background: url(4703133.jpg) no-repeat center fixed;
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 p,
@@ -18,14 +23,14 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #fff;
 }
-
+.container h3 {
+  text-align: center;
+}
 .container {
-  height: 95vh;
+  min-height: 86vh;
+  margin-top: 20px;
   width: 95vw;
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(4px);
@@ -52,7 +57,6 @@ main {
 }
 
 .project-title span {
-  padding: 0 15px;
   font-family: "Poppins", sans-serif;
   color: rgb(255, 255, 255);
 }
@@ -65,38 +69,82 @@ main {
 .details {
   width: 50%;
   text-align: center;
-  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .details {
+    width: 80%;
+  }
 }
 /* -------------------------- */
 
-/* supervisors */
-.supervisors {
+/* Cards */
+
+.supervision,
+.frontend,
+.backend {
+  margin-top: 20px;
+}
+
+.supervisors,
+.frontenders,
+.backenders {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.supervisor-card {
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   background: rgba(201, 38, 38, 0.062);
   box-shadow: 0 8px 25px 0 rgba(57, 60, 99, 0.37);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 10px;
   border: 0.2px solid rgba(255, 255, 255, 0.452);
+  padding: 13px;
   margin: 10px;
-  min-width: 300px;
-  padding: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.supervisor-card img {
-  width: 60px;
-  height: 60px;
+.supervisor-card {
+  min-width: 350px;
+}
+
+.card img {
+  width: 55px;
+  height: 55px;
   object-fit: cover;
   border-radius: 50%;
   margin-right: 15px;
 }
-/* ---------------------- */
+
+.dev-card {
+  margin: 5px;
+  padding: 10px;
+}
+
+.dev-card img {
+  width: 40px;
+  height: 40px;
+}
+.backend {
+  margin-bottom: 30px;
+}
+
+footer {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
