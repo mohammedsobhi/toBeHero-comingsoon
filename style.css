@@ -3,7 +3,7 @@
 }
 
 body {
-  background: url(4703133.jpg) no-repeat center fixed;
+  background: url(4703133.jpg) no-repeat center;
   background-size: cover;
   /* height: 100vh; */
 
@@ -111,7 +111,7 @@ main {
 }
 
 .supervisor-card {
-  min-width: 350px;
+  min-width: 330px;
 }
 
 .card img {
