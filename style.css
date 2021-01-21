@@ -3,7 +3,7 @@
 }
 
 body {
-  background: url(4703133.jpg) no-repeat center;
+  background: url(imgs/background.jpg) no-repeat center;
   background-size: cover;
   /* height: 100vh; */
 
@@ -123,6 +123,7 @@ main {
 }
 
 .dev-card {
+  min-width: 265px;
   margin: 5px;
   padding: 10px;
 }
