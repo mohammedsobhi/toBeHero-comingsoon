@@ -31,9 +31,9 @@ h3 {
 .container {
   margin-top: 20px;
   width: 95vw;
-  background: rgba(255, 255, 255, 0.25);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background: rgba(223, 223, 223, 0.25);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
   box-shadow: 0 8px 32px 0 rgba(18, 18, 24, 0.5);
   border-radius: 20px;
   border: 0.2px solid rgba(255, 255, 255, 0.26);
@@ -56,8 +56,8 @@ main {
 }
 
 .project-title span {
-  font-family: "Poppins", sans-serif;
-  color: rgb(255, 255, 255);
+  font-family: "Hachi Maru Pop", cursive;
+  font-style: normal;
 }
 
 .coming-soon {
@@ -99,7 +99,7 @@ main {
   justify-content: center;
   align-items: center;
 
-  background: rgba(201, 38, 38, 0.062);
+  background: rgba(73, 38, 201, 0.062);
   box-shadow: 0 8px 25px 0 rgba(57, 60, 99, 0.37);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
@@ -152,7 +152,7 @@ main {
   font-size: 1em;
   line-height: 1.5em;
   border-top: 3px solid;
-  border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+  border-image: linear-gradient(to right, #7e42ec 0%, #44c2fd 100%);
   border-image-slice: 1;
   border-width: 6px;
   margin: 0;
@@ -178,7 +178,7 @@ main {
   padding: 10px;
   height: 1.25em;
   width: 1.25em;
-  background-color: #2d2c64;
+  background-color: #343090;
   text-align: center;
   line-height: 1.25em;
   color: var(--color);
@@ -233,7 +233,7 @@ main {
 }
 
 .btn {
-  background: linear-gradient(100deg, #743ad5 0%, #d53a9d 100%);
+  background: linear-gradient(100deg, #8c61ff 0%, #44c2fd 100%);
   padding: 10px 30px;
   color: var(--color);
   text-decoration: none;
@@ -243,7 +243,6 @@ main {
 }
 
 .btn:hover {
-  background: linear-gradient(30deg, #d53a9d 0%, #743ad5 100%);
   font-style: italic;
   box-shadow: 0 8px 25px 0 rgba(129, 136, 224, 0.37);
 }
